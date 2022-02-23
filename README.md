@@ -114,7 +114,7 @@ wei/
 Apache 2.0
 
 ## test command
-rancher-machine -D create -d g42 --g42-access-key-id BCE_shortened --g42-access-key-secret 4UR_shortened --g42-available-zone eu-de-01 --g42-bandwidth-size 10 --g42-bandwidth-type PER --g42-elasticip-type 5_bgp --g42-flavor-id normal1 --g42-image-id d6944a41-5ec7-44a4-970e-ce330da390d2 --g42-region eu-de --g42-root-volume-size 40 --g42-root-volume-type SATA --g42-security-group sg-tino --g42-service-endpoint https://ecs.eu-de.g42.t-systems.com --g42-ssh-user ubuntu --g42-subnet-id 91e2f28b-50dc-4a2d-b856-39d9204323e2 --g42-tenant-id 16d53a84a13b49529d2e2c3646691288 --g42-vpc-id 9d5c46ec-b3f0-42a2-9a65-f2d77e124516 test
+rancher-machine -D create -d g42 --g42-access-key-id BCE_shortened --g42-access-key-secret 4UR_shortened --g42-available-zone eu-de-01 --g42-bandwidth-size 10 --g42-bandwidth-type PER --g42-elasticip-type 5_bgp --g42-flavor-id normal1 --g42-image-id d6944a41-5ec7-44a4-970e-ce330da390d2 --g42-region eu-de --g42-root-volume-size 40 --g42-root-volume-type SATA --g42-security-group sg-tino --g42-service-endpoint https://ecs.ae-ad-1.g42cloud.com --g42-ssh-user ubuntu --g42-subnet-id <> --g42-tenant-id <> --g42-vpc-id <> test
 
 ## debugging
 rancher-machine --debug [....]
