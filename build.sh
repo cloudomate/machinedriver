@@ -16,7 +16,7 @@ go vet ./...
 for GOOS in $OS; do
     for GOARCH in $ARCH; do
         arch="$GOOS-$GOARCH"
-        binary="bin/docker-machine-driver-otc.$arch"
+        binary="bin/docker-machine-driver-g42.$arch"
         echo "Building $binary"
         GOOS=$GOOS GOARCH=$GOARCH go build -o $binary
     done
